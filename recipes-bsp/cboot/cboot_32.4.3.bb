@@ -25,6 +25,7 @@ SRC_URI = "\
     ${L4T_URI_BASE}/${SRC_TARBALL}.tbz2;downloadfilename=${SRC_TARBALL}-${PV}.tbz2;subdir=${BP} \
     file://0001-Convert-Python-scripts-to-Python3.patch \
 "
+SRC_URI_append_tegra194 = " file://0002-Support-A-B-slot-for-kernel-on-SDcards-and-USB-devic.patch"
 
 SRC_SHA256SUM = "INVALID"
 SRC_SHA256SUM_tegra194 = "2e053ef1f0931ad670c3f5ae75aba60ce7cbde8436d1fd4c2be3cdd2b60f1b88"
